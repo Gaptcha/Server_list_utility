@@ -1,0 +1,21 @@
+os,env,host,domain,backup,update,owner,location
+Debian,prod,db01,example.com,True,BusinessHours,CTO,FRA1
+Debian,prod,web01,example.com,True,BusinessHours,CTO,frA1
+Debian,prod,web02,example.com,True,BusinessHours,CTO,FRA2
+Debian,prod,web03,example.com,True,BusinessHours,,lON1
+Ubuntu,,lb01,example.com,False,OutofBusinessHours,,FRA1
+Ubuntu,,lb02,example.com,True,BusinessHours,ITVP,Lon1
+Debian,dev,web01,dev.example.com,,,dev,HQ
+Ubuntu,dev,lb01,dev.example.com,,,dev,Hq
+Debian,dev,db01,dev.example.com,,,dev,HQ
+,,git,intern.local,False,Saturday,CIO,hQ
+,staging,web01,stage.example.com,False,BusinessHours,DEV,FRA2
+CentOS,prod,jira,inter.local,True,OutofBusinessHours,COO,HQ
+CentOS,prod,confl,inter.local,True,OutofBusinessHours,Coo,HQ
+RedHat,,tes01,,,,DEV,
+Debian,,PRL1,intern.local,True,Saturday,Finance dept.,hq
+CentOS,prod,ansible,example.com,False,BusinessHours,CIO,FRA1
+AmazonLinux,prod,global-cdn-web1,aws.example.com,True,,CTO,
+AmazonLinux,prod,global-cdn-db,aws.example.com,True,,CTO,aws2
+AmazonLinux,prod,global-cdn-lb,aws.example.com,True,,CTO,AWS2
+AmazonLinux,prod,global-cdn-web2,aws.example.com,True,,CTO,aws2
